@@ -725,6 +725,7 @@ function menu(){
     document.getElementById("startMenu").removeAttribute("hidden");
     document.getElementById("turnMenu").setAttribute("hidden", "hidden");
     document.getElementById("winMenu").setAttribute("hidden", "hidden");
+    location.reload();
 }
 
 function pickTurns(){
